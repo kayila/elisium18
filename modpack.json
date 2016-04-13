@@ -1,0 +1,33 @@
+{
+  "name" : "Elisium18",
+  "title" : "Elisium18",
+  "gameVersion" : "1.8.9",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "Mine Little Pony",
+        "description" : "Ponify your world!",
+        "recommendation" : null,
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/mod-minelittlepony-1.8.9.1-mc1.8.9.litemod"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-Dfml.ignoreInvalidMinecraftCertificates=true"
+    ]
+  }
+}
