@@ -1,0 +1,257 @@
+{
+  "modid": "",
+  "uniqueName": "SCP__2__Lalnable_Hector",
+  "saveName": "SCP__2__Lalnable_Hector",
+  "displayName": "SCP #2: Lalnable Hector",
+  "displayInfo": "",
+  "colorHex": "FFFFFFFF",
+  "language": "en_US",
+  "hasCustomIcon": true,
+  "showBackground": true,
+  "legacyTexture": false,
+  "backgroundResource": "enchiridion:images/SCP__2__Lalnable_Hector/clipboardbg.png",
+  "backgroundStartX": -10,
+  "backgroundStartY": -10,
+  "backgroundEndX": 440,
+  "backgroundEndY": 240,
+  "defaultPage": 0,
+  "isLocked": false,
+  "forgetPageOnClose": false,
+  "book": [
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "deflt": {
+                "path": "enchiridion:textures/books/arrow_left_off.png"
+              },
+              "hover": {
+                "path": "enchiridion:textures/books/arrow_left_on.png"
+              },
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              }
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "deflt": {
+                "path": "enchiridion:textures/books/arrow_right_off.png"
+              },
+              "hover": {
+                "path": "enchiridion:textures/books/arrow_right_on.png"
+              },
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              }
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 21,
+          "yPos": 27,
+          "width": 200.0,
+          "height": 192.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[u]SCP# 2[/u] - “Dr. Lalnable Hector”\n\nSCP# 2, AKA “Dr. Lalnable Hector” was captured during a experimental procedure involving the time gate recovered by Dr. [b]REDACTED[/b] in early 2016. Lalnable was immediately recognized by the lead scientist on the project and was captured and incarserated for his crimes against the people of Minecraftia. Lalnable is known to have significant knowledge regarding many areas both technological and magical in nature.",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        },
+        {
+          "xPos": 237,
+          "yPos": 52,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemBloodOrb 2 {ownerUUID:\"723c2496-4d99-4673-a54b-0b366870de4b\",ownerNAME:\"Lalnable_Hector_\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 3
+        },
+        {
+          "xPos": 237,
+          "yPos": 79,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemBoundSword 0 {ownerUUID:\"723c2496-4d99-4673-a54b-0b366870de4b\",ownerNAME:\"Lalnable_Hector_\",activated:0b}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 4
+        },
+        {
+          "xPos": 237,
+          "yPos": 39,
+          "width": 129.0,
+          "height": 15.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "[u]Items found with SCP# 2:",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 5
+        },
+        {
+          "xPos": 255,
+          "yPos": 51,
+          "width": 144.0,
+          "height": 158.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "Teal colored orb - Use unknown\n\nStrange stick - warm to the touch\n\nSmall stone tablet with symbol etched into it\n\n[color\u003ddark_red]These items are to be kept in a locked vault away from SCP# 2 at all times.",
+              "size": 1.0
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 6
+        },
+        {
+          "xPos": 236,
+          "yPos": 105,
+          "width": 16.0,
+          "height": 16.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureItem",
+            "properties": {
+              "item": "bloodmagic:ItemSigilAir {ownerUUID:\"723c2496-4d99-4673-a54b-0b366870de4b\",ownerNAME:\"Lalnable_Hector_\"}",
+              "hideTooltip": false
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 7
+        },
+        {
+          "xPos": 208,
+          "yPos": 144,
+          "width": 35.0,
+          "height": 66.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureImage",
+            "properties": {
+              "path": "enchiridion:images/SCP__2__Lalnable_Hector/Lalnable_Hector_.png"
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 8
+        }
+      ],
+      "pageName": "0",
+      "pageNumber": 0
+    },
+    {
+      "features": [
+        {
+          "xPos": 21,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "deflt": {
+                "path": "enchiridion:textures/books/arrow_left_off.png"
+              },
+              "hover": {
+                "path": "enchiridion:textures/books/arrow_left_on.png"
+              },
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionPreviousPage",
+                "properties": {}
+              }
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 0
+        },
+        {
+          "xPos": 387,
+          "yPos": 200,
+          "width": 18.0,
+          "height": 10.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureButton",
+            "properties": {
+              "deflt": {
+                "path": "enchiridion:textures/books/arrow_right_off.png"
+              },
+              "hover": {
+                "path": "enchiridion:textures/books/arrow_right_on.png"
+              },
+              "action": {
+                "class": "joshie.enchiridion.gui.book.buttons.actions.ActionNextPage",
+                "properties": {}
+              }
+            }
+          },
+          "isLocked": true,
+          "isHidden": false,
+          "layerIndex": 1
+        },
+        {
+          "xPos": 23,
+          "yPos": 30,
+          "width": 376.0,
+          "height": 167.0,
+          "feature": {
+            "class": "joshie.enchiridion.gui.book.features.FeatureText",
+            "properties": {
+              "text": "SCP# 2 is to be contained in a locked cage at all times surrounded by a moat of lava protected by a password protected door. He is to be fed three meals a day consisting of equal parts meat and vegetables. At no point is SCP# 2 allowed to leave his cell. At no point may SCP# 2 come into contact with SCP# 1, AKA “Specimen 5”",
+              "size": 1.0
+            }
+          },
+          "isLocked": false,
+          "isHidden": false,
+          "layerIndex": 2
+        }
+      ],
+      "pageName": "1",
+      "pageNumber": 1
+    }
+  ]
+}
